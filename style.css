@@ -1,177 +1,145 @@
 header {
-background: #3331BC;
-height: auto;
-
-}
-
-ul{
-  list-style-type: none;
- 
-}
-
-a{
-  color:white;
-  text-decoration: none;
-}
-
-nav ul{
-  display: flex;
-  justify-content: space-around;
-}
-
-body{
-  height: 100vh;
-}
-
-
-
-.footer {
-  /* position: absolute; */
+  background: #3331BC;
+  height: auto;
   
-  background-color: orange;
-width: 100%;
-height: 350px;
-left: 134px;
-top: 4607px;
-
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 40px;
-
-color: #141313;
-}
-
-.footer #container{
-  display: flex;
-  background-color: orange;
-  align-content: center;
-}
-
-#container div{
-  align-items: center;
-  margin: 20px;
-  width:100%;
-  padding:20px; 
-}
-
-.footer #inflight{
-  color:white;
+  }
+  
+  ul{
+    list-style-type: none;
+   
+  }
+  
+  a{
+    color:white;
+    text-decoration: none;
+  }
+  
+  nav ul{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  body{
+    height: 100vh;
+  }
+  
+  
+  
+  .footer {
+    /* position: absolute; */
+    
+    background-color: orange;
+  width: 100%;
+  height: 350px;
+  left: 134px;
+  top: 4607px;
+  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  
+  color: #141313;
+  }
+  
+  .footer #container{
+    display: flex;
+    background-color: orange;
+    align-content: center;
+  }
+  
+  #container div{
+    align-items: center;
+    margin: 20px;
+    width:100%;
+    padding:20px; 
+  }
+  
+  .footer #inflight{
+    color:white;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    font-size: 2.5em;
+    padding-left: 20px;
+    text-align: center;
+    height: 90px;
+    padding-top: 35px;
+    
+  }
+  
+  .social_icons{
   box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 8px;
-  font-size: 2.5em;
-  padding-left: 20px;
-  text-align: center;
-  height: 90px;
-  padding-top: 35px;
+    border-radius: 8px;
+  }
   
-}
-
-.social_icons{
-box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 8px;
-}
-
-.weather{
-box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 18px;
+  .weather{
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 18px;
+    
+  }
   
-}
-
-.footer #inflightInf{
-  color:blue;
+  .footer #inflightInf{
+    color:blue;
+    
+    font-size: 1em;
+    padding-left: 20px;
+    
+    
+  }
   
-  font-size: 1em;
-  padding-left: 20px;
+  #div2 .title, #div3 .title{
+    font-size: 1em;
+    padding-bottom: 0;
+  }
+  
+  .footer #listInfo{
+    color:blue;
+    
+    font-size: 1em;
+    padding-left: 20px;
+    
+  }
+  
+  .footer #div2{
+    color:blue;
+    justify-content: right;
+    font-size: 1em; 
+  }
+  
+  .footer #div3{
+    color:blue;
+    justify-content: right;
+    font-size: 1em; 
+  }
+  
+  .weather {
+    height: 45px;
+    width: 45px;
+    padding-bottom: 0;
+  }
+  
+  .social_icons {
+    height: 40px;
+    width: 40px;
+    padding-bottom: 0;
+    margin-left: 15px;
+  }
+  
+  #div2 p, #div3 p{
+    
+    font-size: 0.7em;
+    line-height: 1.7;
+  }
+  
+  #small-sign{
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  
+  .container{
+    display:flex;
+    align-items: center;
+  }
   
   
-}
-
-#div2 .title, #div3 .title{
-  font-size: 1em;
-  padding-bottom: 0;
-}
-
-.footer #listInfo{
-  color:blue;
-  
-  font-size: 1em;
-  padding-left: 20px;
-  
-}
-
-.footer #div2{
-  color:blue;
-  justify-content: right;
-  font-size: 1em; 
-}
-
-.footer #div3{
-  color:blue;
-  justify-content: right;
-  font-size: 1em; 
-}
-
-.weather {
-  height: 45px;
-  width: 45px;
-  padding-bottom: 0;
-}
-
-.social_icons {
-  height: 40px;
-  width: 40px;
-  padding-bottom: 0;
-  margin-left: 15px;
-}
-
-#div2 p, #div3 p{
-  
-  font-size: 0.7em;
-  line-height: 1.7;
-}
-
-#small-sign{
-  margin-bottom: 20px;
-  margin-top: 0;
-}
-
-.container{
-  display:flex;
-  align-items: center;
-}
-
-/*
-.footer #div1{
-  width: 30%;
-  float: left;
-  text-align: left;
-}
-
-.footer #div2{
-  width: 70%;
-  text-align: left;
-  float: right;
-  
-}
-.footer #inflight{
-  color:white;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2em;
-  padding-left: 20px;
-  
-}
-
-.footer #inflightInf{
-  color:blue;
-  width: 200px;
-  padding-left: 20px;
-  
-}
-
-.footer #listInfo{
-  color:white;
-  
-}
-*/
