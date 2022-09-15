@@ -1,96 +1,96 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
 
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: #3331BC;
-    height: 5em
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #3331BC;
+  height: 5em
 }
 
 .heading-name {
-    margin-right: auto;
-    font-weight: bolder;
-    font-size: 2.5em;
-    padding: 0.5em 1em 0.5em 1em;
+  margin-right: auto;
+  font-weight: bolder;
+  font-size: 2.5em;
+  padding: 0.5em 1em 0.5em 1em;
 }
 
 .tabs-top {
-    list-style: none;
-    display: inline-block;
-    display: flex;
-    flex-direction: row;
-    gap: 1.7em;
-    font-size: 1.5em;
-    margin-right: 1em;
+  list-style: none;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  gap: 1.7em;
+  font-size: 1.5em;
+  margin-right: 1em;
 }
 
 header a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .top-page {
-    position: absolute;
-    width: 100%;
+  position: absolute;
+  width: 100%;
 
-    height: 2.5em;
-    left: 0.2em;
-    top: 2em;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 95px;
-    line-height: 124px;
-    text-align: center;
-    color: #f0e8e8;
+  height: 2.5em;
+  left: 0.2em;
+  top: 2em;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 95px;
+  line-height: 124px;
+  text-align: center;
+  color: #f0e8e8;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 
 .track-flight {
-    font-size: 5em;
-    font-weight: 800;
-    margin-top: 2.5em;
-    text-align: center;
-    color: #1144C9;
+  font-size: 5em;
+  font-weight: 800;
+  margin-top: 2.5em;
+  text-align: center;
+  color: #1144C9;
 }
 
 .get-status {
-    font-size: 3em;
-    font-weight: 400;
-    margin-top: 1em;
-    text-align: center;
+  font-size: 3em;
+  font-weight: 400;
+  margin-top: 1em;
+  text-align: center;
 
-    color: #070300;
+  color: #070300;
 
 }
 
 .btn_container {
-    text-align: center;
+  text-align: center;
 }
 
 .status_btn {
-    background-color: orange;
-    color: white;
-    border-radius: 1em;
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 0.5em 1.5em;
-    border: orange;
+  background-color: orange;
+  color: white;
+  border-radius: 1em;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 0.5em 1.5em;
+  border: orange;
 }
 
 .status_btn:hover {
-    cursor: pointer;
-    border: blanchedalmond 3px solid;
+  cursor: pointer;
+  border: blanchedalmond 3px solid;
 }
 
 
@@ -100,120 +100,120 @@ img {
 
 
 .h5-1 {
-    position: absolute;
-    width: 1185px;
-    height: 114px;
-    left: 80px;
-    top: 2000px;
+  position: absolute;
+  width: 1185px;
+  height: 114px;
+  left: 80px;
+  top: 2000px;
 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 53px;
-    text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 53px;
+  text-align: center;
 
-    color: #F8F9FF;
+  color: #F8F9FF;
 }
 
 .h5-2 {
-    position: absolute;
-    width: 592px;
-    height: 110px;
-    left: 225px;
-    top: 2244px;
+  position: absolute;
+  width: 592px;
+  height: 110px;
+  left: 225px;
+  top: 2244px;
 
-    background: #F8F9FF;
-    border-radius: 20px;
+  background: #F8F9FF;
+  border-radius: 20px;
 }
 
 .h5-3 {
-    position: absolute;
-    width: 1650px;
-    height: 900px;
-    left: 134px;
-    top: 1925px;
+  position: absolute;
+  width: 1650px;
+  height: 900px;
+  left: 134px;
+  top: 1925px;
 }
 
 .h6-1 {
-    position: absolute;
-    width: 1212px;
-    height: 76px;
-    left: 223px;
-    top: 2939px;
+  position: absolute;
+  width: 1212px;
+  height: 76px;
+  left: 223px;
+  top: 2939px;
 
-    font-style: normal;
-    font-weight: 600;
-    font-size: 55px;
-    line-height: 65px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 65px;
 
-    color: #d01313;
+  color: #d01313;
 }
 
 .h6-2 {
-    position: absolute;
-    width: 592px;
-    height: 114px;
-    left: 223px;
-    top: 3088px;
+  position: absolute;
+  width: 592px;
+  height: 114px;
+  left: 223px;
+  top: 3088px;
 
-    background: #F8F9FF;
-    border-radius: 20px;
+  background: #F8F9FF;
+  border-radius: 20px;
 }
 
 .h6-3 {
-    position: absolute;
-    width: 1650px;
-    height: 669px;
-    left: 134px;
-    top: 2733px;
+  position: absolute;
+  width: 1650px;
+  height: 669px;
+  left: 134px;
+  top: 2733px;
 }
 
 .h7-1 {
-    position: absolute;
-    width: 1212px;
-    height: 190px;
-    left: -103px;
-    top: 3677px;
+  position: absolute;
+  width: 1212px;
+  height: 190px;
+  left: -103px;
+  top: 3677px;
 
-    font-style: normal;
-    font-weight: 600;
-    font-size: 55px;
-    line-height: 65px;
-    text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 65px;
+  text-align: center;
 
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .h7-2 {
-    position: absolute;
-    width: 641px;
-    height: 110px;
-    left: 223px;
-    top: 3825px;
+  position: absolute;
+  width: 641px;
+  height: 110px;
+  left: 223px;
+  top: 3825px;
 
-    background: #FFFFFF;
-    border-radius: 20px;
+  background: #FFFFFF;
+  border-radius: 20px;
 }
 
 .h7-3 {
-    position: absolute;
-    width: 1650px;
-    height: 669px;
-    left: 134px;
-    top: 3461px;
+  position: absolute;
+  width: 1650px;
+  height: 669px;
+  left: 134px;
+  top: 3461px;
 }
 
 .footer {
-    position: absolute;
-    width: 478px;
-    height: 286px;
-    left: 134px;
-    top: 4607px;
+  position: absolute;
+  width: 478px;
+  height: 286px;
+  left: 134px;
+  top: 4607px;
 
-    font-style: normal;
-    font-weight: 600;
-    font-size: 34px;
-    line-height: 40px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 40px;
 
-    color: #141313;
+  color: #141313;
 }
