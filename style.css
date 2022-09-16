@@ -57,7 +57,7 @@ img {
 
 
 .track-flight {
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 800;
   margin-top: 2.5em;
   text-align: center;
@@ -65,12 +65,27 @@ img {
 }
 
 .get-status {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 400;
   margin-top: 1em;
   text-align: center;
 
   color: #070300;
+
+}
+
+.btn_container {
+  text-align: center;
+  margin: 2em;
+}
+
+.status_btn {
+  background-color: orange;
+  border-color: orange;
+  font-size: 1.5em;
+  color: white;
+  border-radius: 1em;
+  padding: 0.2em 1em 0.2em 1em;
 
 }
 
