@@ -262,7 +262,7 @@ display: flex;
     font-size: 1em; 
   }
   
-  .weather {
+  .weather_footer {
     height: 45px;
     width: 45px;
     padding-bottom: 0;
