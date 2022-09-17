@@ -305,6 +305,19 @@ display: flex;
     display:flex;
     align-items: center;
   }
+
+.wrapper{
+  border: 1px solid orange;
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+  
   
   
 
