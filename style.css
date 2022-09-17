@@ -89,18 +89,6 @@ img {
 
 }
 
-.status {
-padding-bottom: 30px;
-width: 750px;
-height: 500px;
-margin: 0 auto;
-background-image: url("./assets/status.jpg");
-background-size: contain;
-background-repeat: no-repeat;
-display: flex;
-flex-direction: column;
-}
-
 .status label {
 margin-top: 200px;
 margin-left: 15%;
@@ -307,11 +295,12 @@ display: flex;
   }
 
 .checkbox1{
+  padding-bottom: 30px;
   border: 1px solid orange;
   height: 200px;
   width: 400px;
   position: absolute;
-  margin: auto;
+  margin: 0 auto;
   top: 0;
   bottom: 0;
   left: 0;
