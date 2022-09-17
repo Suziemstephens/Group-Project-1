@@ -306,7 +306,7 @@ display: flex;
     align-items: center;
   }
 
-.wrapper{
+.checkbox1{
   border: 1px solid orange;
   height: 200px;
   width: 400px;
