@@ -301,7 +301,7 @@ display: flex;
   width: 400px;
   position: absolute;
   margin: 0 auto;
-  top: 0;
+  top: 10;
   bottom: 0;
   left: 0;
   right: 0;
