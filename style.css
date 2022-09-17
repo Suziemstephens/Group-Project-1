@@ -306,6 +306,34 @@ display: flex;
   left: 0;
   right: 0;
 }
+
+
+.checkbox2{
+  padding-bottom: 30px;
+  border: 1px solid orange;
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  margin: 0 auto;
+  top: 20;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.checkbox3{
+  padding-bottom: 30px;
+  border: 1px solid orange;
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  margin: 0 auto;
+  top: 40;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
   
   
   
