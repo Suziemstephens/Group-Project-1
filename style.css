@@ -179,7 +179,7 @@ display: flex;
   
   
   
-  .footer {
+   .footer {
     /* position: absolute; */
     
     background-color: orange;
@@ -237,7 +237,7 @@ display: flex;
   }
   
   .footer #inflightInf{
-    color:blue;
+    color:rgb(237, 237, 244);
     
     font-size: 1em;
     padding-left: 20px;
@@ -251,7 +251,7 @@ display: flex;
   }
   
   .footer #listInfo{
-    color:blue;
+    color:rgb(243, 243, 249);
     
     font-size: 1em;
     padding-left: 20px;
@@ -259,13 +259,13 @@ display: flex;
   }
   
   .footer #div2{
-    color:blue;
+    color:rgb(247, 247, 250);
     justify-content: right;
     font-size: 1em; 
   }
   
   .footer #div3{
-    color:blue;
+    color:rgb(232, 232, 244);
     justify-content: right;
     font-size: 1em; 
   }
