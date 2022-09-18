@@ -306,7 +306,7 @@ display: flex;
   background-color: none;
   height: 200px;
   width: 800px;
-  position: relative;
+  position: absolute;
   top: 50;
   bottom: 200;
   left: 0;
@@ -315,6 +315,7 @@ display: flex;
 }
 
 .checkboxes label {
+  z-index: 1;
   font-size: x-large;
   width: 50%;
   padding-top: 75px;
