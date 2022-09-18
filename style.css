@@ -315,7 +315,6 @@ display: flex;
 }
 
 .checkboxes label {
-  z-index: 1;
   font-size: x-large;
   width: 50%;
   padding-top: 75px;
