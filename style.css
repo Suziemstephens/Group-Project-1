@@ -311,11 +311,10 @@ display: flex;
   bottom: 200;
   left: 0;
   right: 0;
-  margin: 500px;
+  margin: 100px;
 }
 
 .checkboxes label {
-  z-index: 1;
   font-size: x-large;
   width: 50%;
   padding-top: 75px;
