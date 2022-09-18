@@ -77,6 +77,9 @@ img {
 .btn_container {
   text-align: center;
   margin: 2em;
+  font-size: 2em;
+  font-weight: 400;
+  margin-top: 18em;
 }
 
 .status_btn {
