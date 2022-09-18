@@ -136,7 +136,7 @@ text-decoration: underline;
 
 .information input {
 margin-left: 15%;
-z-index: ;
+z-index: 1;
 font-size: x-large;
 width: 50%;
 display: flex;
