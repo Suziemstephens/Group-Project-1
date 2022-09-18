@@ -309,9 +309,8 @@ display: flex;
   bottom: 200;
   left: 0;
   right: 0;
-  margin: 700px;
-  margin-top: 500px;
-text-align: center;
+  margin: 1em;
+  text-align: center;
 }
 
 .checkboxes label {
