@@ -299,7 +299,7 @@ display: flex;
     align-items: center;
   }
 
- .checkboxes{
+  .checkboxes{
     padding-bottom: 30px;
     background-color: none;
     height: 200px;
@@ -319,7 +319,7 @@ display: flex;
     width: 50%;
     padding-top: 75px;
     padding-bottom: 50px;
-    font-weight: semi-bold;
+    font-weight: bold;
     }
 
 
