@@ -299,31 +299,28 @@ display: flex;
     align-items: center;
   }
 
-.checkboxes{
-  padding-bottom: 30px;
-  background-color: none;
-  height: 200px;
-  width: 800px;
-  position: absolute;
-  top: 50;
-  bottom: 200;
-  left: 0;
-  right: 0;
-  margin: 700px;
-  margin-top: 500px;
-text-align: center;
-
-}
-
-.checkboxes label {
-  z-index: 1;
-  font-size: xx-large;
-  width: 50%;
-  padding-top: 75px;
-  padding-bottom: 50px;
-  font-weight: bold;
-  
+ .checkboxes{
+    padding-bottom: 30px;
+    background-color: none;
+    height: 200px;
+    width: 20%;
+    position: absolute;
+    top: 150%;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+    margin: 200px;
+    padding: 0em;
   }
+
+  .checkboxes label {
+    z-index: 1;
+    font-size: x-large;
+    width: 50%;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    font-weight: semi-bold;
+    }
 
 
 
