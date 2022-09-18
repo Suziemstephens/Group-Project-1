@@ -311,7 +311,9 @@ display: flex;
   bottom: 200;
   left: 0;
   right: 0;
-  margin: 800px;
+  margin: 700px;
+  margin-top: 500px;
+text-align: center;
 }
 
 .checkboxes label {
