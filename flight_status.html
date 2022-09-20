@@ -1,17 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Flight Status</title>
-</head>
-<body>
-   <img src="./images/comingsoon2.jpg" 
-                    alt="weather" 
-                    class="weather"
-                    width="100%"
-                    height="100%"/>
-   
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamically Generated Elements</title>
+    <link rel="stylesheet" href="./style_status.css" />
+  </head>
+  <body class="min-100-vh flex-column">
+    <header class="p-5 text-center text-white bg-primary">
+      <h1>FLIGHT STATUS</h1>
+    </header>
+    <main class="flex-row justify-center align-center col-auto p-4 bg-light">
+      <section class="card card-rounded col-7 bg-white">
+        <header class="card-header text-center">
+          <h2 class="text-white">
+            Scheduled & live flight.
+          </h2>
+        </header>
+        <div class="text-center p-4">
+          <p class="card-body">
+            If your flight was cancelled, don't worry, click here to choose the best alternative and reschedule your trip.
+          </p>
+
+          <form>
+            <label for="cars">Choose an Airline</label>
+            <select name="airlines" id="airlines">
+                <option value="UAL">United Airlines</option>
+                <option value="AAL">American Airlines</option>
+                <option value="HAL">Hawaiian Airlines</option>
+                <option value="SIA">Singapore Airlines</option>
+                <option value="DAL">Delta Air Lines</option>
+                <option value="ASA">Alaska Airlines</option>
+                <option value="AFR">Air France</option>
+                <option value="AWQ">Indonesia AirAsia</option>
+                <option value="CMP">Copa Air Lines</option>
+                <option value="AVA">Avianca</option>
+            </select>
+            <br>
+            <label for="departure">Departure Date:</label>
+            <input type="date" id="departure_date" name="departure_date">
+            <br><br>
+            <!--
+            <button class="btn btn-danger" id="date-button">
+                Search by Date
+              </button>
+            <br>
+            <label for="lname">Flight Number:</label><br>
+            <input type="text" id="lnumber" name="lnumber" value="">
+            -->
+          </form>
+          <br>
+          <button class="btn btn-danger" id="fetch-button">
+            Search by Date
+          </button>
+          <button class="btn btn-danger" id="reset" value="Reload Page" onClick="window.location.reload(true)">
+            Reset
+          </button>
+        </div>
+        <div class="container" id="issues"></div>
+      </section>
+    </main>
+    <script src="./script_status.js"></script>
+  </body>
 </html>
