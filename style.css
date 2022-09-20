@@ -300,7 +300,7 @@ display: flex;
   }
 
   .checkboxes{
-    height: 200vh;
+    height: 200px;
     position: absolute;
     top: 150%;
     bottom: 50%;
